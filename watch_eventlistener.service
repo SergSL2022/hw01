@@ -1,0 +1,11 @@
+[Unit]
+Description=Event listener for /home/serg/watch directory
+
+After=network.target
+
+[Service]
+ExecStart=/home/serg/Homework/watch_eventlistener.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

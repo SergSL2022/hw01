@@ -1,6 +1,6 @@
 #!/bin/bash
 
-watch_dir=~/watch
+watch_dir=/home/serg/watch
 state_file="$watch_dir/.watch_state"
 previous_files=()
 
